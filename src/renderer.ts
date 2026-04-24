@@ -115,19 +115,20 @@ class ColumnRenderer implements RowRenderer {
       type = type + " <B>NN</B>";
     }
 
-    // Read column background color from settings, fallback to default grey
+    // Apply text color to column name if settings.color is set (for change highlighting)
     const rawColor = settings.color as string | undefined;
-    const bgColor =
+    const coloredName =
       rawColor && rawColor.trim()
-        ? rawColor.trim().startsWith("#")
-          ? rawColor.trim()
-          : `#${rawColor.trim()}`
-        : "#e7e2dd";
+        ? `<FONT COLOR="${rawColor.trim()}">${name}</FONT>`
+        : name;
+
+    // All column cells use default background — only text color changes for highlighting
+    const bgColor = "#e7e2dd";
 
     return `<TR><TD ALIGN="LEFT" PORT="${this.port}" BGCOLOR="${bgColor}">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
-          <TD ALIGN="LEFT">${name}    </TD>
+          <TD ALIGN="LEFT">${coloredName}    </TD>
           <TD ALIGN="RIGHT"><FONT>${type}</FONT></TD>
         </TR>
       </TABLE>

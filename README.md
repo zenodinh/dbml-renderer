@@ -8,7 +8,7 @@ This fork adds two features for SA (System Analysis) document ERDs:
 
 ### 1. Column-Level Color Highlighting
 
-Add `[color: #hex]` to any column to highlight its row background. This enables reviewers to see exactly which columns changed — not just which table changed.
+Add `[color: #hex]` to any column to change the **text color** of that column name. Background stays default grey for all columns. This lets reviewers see exactly which columns changed without visual noise.
 
 ```dbml
 Table iex_merchant_config {
@@ -22,12 +22,16 @@ Table iex_merchant_config {
 
 **Color convention for SA ERDs:**
 
-| Scenario | Header | Column Background |
-|----------|--------|-------------------|
-| Existing table, no change | Default blue `#1d71b8` | Default grey `#e7e2dd` |
-| New table | Red `#DC2626` | All rows: `#FEE2E2` (light red) |
-| Existing table, new column | Default blue `#1d71b8` | New column only: `#FEE2E2` |
-| Existing table, modified column | Default blue `#1d71b8` | Modified column only: `#DCFCE7` (light green) |
+| Element | Color | Hex | Usage |
+|---------|-------|-----|-------|
+| Table header (existing) | Blue | `#1d71b8` | Default — no setting needed |
+| Table header (new) | Red | `#DC2626` | New table added in this SA |
+| Table header (modified) | Green | `#16A34A` | Existing table with column changes |
+| Column text (existing) | Dark grey | `#29235c` | Default — no setting needed |
+| Column text (new) | Light red | `#FEE2E2` | New column in any table |
+| Column text (modified) | Light green | `#DCFCE7` | Modified column in any table |
+
+**Rule:** Header color and column text color are complementary — new table gets red header + red text on all columns; modified table gets default header + colored text only on changed columns.
 
 ### 2. NN Marker for NOT NULL
 
