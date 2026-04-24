@@ -1,14 +1,15 @@
 {
-  "name": "@softwaretechnik/dbml-renderer",
-  "version": "1.0.31",
+  "name": "dbml-renderer-enhanced",
+  "version": "1.0.0",
+  "description": "DBML to SVG renderer with column-level color highlighting and NN marker — forked from @softwaretechnik/dbml-renderer",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softwaretechnik-berlin/dbml-renderer.git"
+    "url": "git+https://github.com/zenodinh/dbml-renderer.git"
   },
   "main": "./lib/api.js",
   "types": "./lib/api.d.ts",
   "bin": {
-    "dbml-renderer": "lib/index.js"
+    "dbml-renderer-enhanced": "lib/index.js"
   },
   "scripts": {
     "generate:parser": "peggy src/dbml.pegjs",
@@ -35,9 +36,9 @@
     "zod": "^3.25.75"
   },
   "bugs": {
-    "url": "https://github.com/softwaretechnik-berlin/dbml-renderer/issues"
+    "url": "https://github.com/zenodinh/dbml-renderer/issues"
   },
-  "homepage": "https://github.com/softwaretechnik-berlin/dbml-renderer#readme",
+  "homepage": "https://github.com/zenodinh/dbml-renderer#readme",
   "description": "",
   "ava": {
     "extensions": [

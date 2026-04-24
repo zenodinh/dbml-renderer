@@ -20,7 +20,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">owner    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -28,7 +28,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">balance    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>bigint</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>bigint</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -36,7 +36,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">currency    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>

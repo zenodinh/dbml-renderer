@@ -37,7 +37,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">username    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -45,7 +45,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">email    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -61,7 +61,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">role    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>integer</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>integer</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -96,7 +96,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -123,7 +123,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">profile_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -139,7 +139,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -147,7 +147,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">birth    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>date</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>date</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -206,7 +206,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">profile_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -265,7 +265,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">profile_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -332,7 +332,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">company_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -399,7 +399,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">company_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -474,7 +474,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">job_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -482,7 +482,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">applicant_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -533,7 +533,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">company_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -608,7 +608,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">event_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -616,7 +616,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">applicant_id    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>varchar(32)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>

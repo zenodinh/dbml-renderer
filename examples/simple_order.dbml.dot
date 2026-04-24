@@ -12,7 +12,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>uniqueidentifier</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>uniqueidentifier</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -20,7 +20,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">client_fullname    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>nvarchar(261)</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>nvarchar(261)</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -31,7 +31,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>uniqueidentifier</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>uniqueidentifier</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>
@@ -39,7 +39,7 @@ digraph dbml {
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>order_id</B>    </TD>
-          <TD ALIGN="RIGHT"><FONT><I>int</I> <B>(!)</B></FONT></TD>
+          <TD ALIGN="RIGHT"><FONT><I>int</I> <B>NN</B></FONT></TD>
         </TR>
       </TABLE>
     </TD></TR>

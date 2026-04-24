@@ -7,7 +7,7 @@ import { run } from "./api";
 import { Format } from "./renderer";
 
 const args = yargs(hideBin(process.argv))
-  .scriptName("dbml-renderer")
+  .scriptName("dbml-renderer-enhanced")
   .usage("Usage: $0 [options]")
   .example("$0 -i schema.dbml", "Render the given file and output to stdout")
   .alias("h", "help")

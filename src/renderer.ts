@@ -1,3 +1,9 @@
+// Forked from @softwaretechnik/dbml-renderer v1.0.31
+// Changes: column-level color support via [color: #hex], NN marker for NOT NULL
+//
+// Original: https://github.com/softwaretechnik-berlin/dbml-renderer
+// Fork: https://github.com/zenodinh/dbml-renderer
+
 import {
   NormalizedEnum,
   NormalizedGroup,
@@ -106,10 +112,19 @@ class ColumnRenderer implements RowRenderer {
 
     let type = `<I>${this.dataType()}</I>`;
     if ("not null" in settings) {
-      type = type + " <B>(!)</B>";
+      type = type + " <B>NN</B>";
     }
 
-    return `<TR><TD ALIGN="LEFT" PORT="${this.port}" BGCOLOR="#e7e2dd">
+    // Read column background color from settings, fallback to default grey
+    const rawColor = settings.color as string | undefined;
+    const bgColor =
+      rawColor && rawColor.trim()
+        ? rawColor.trim().startsWith("#")
+          ? rawColor.trim()
+          : `#${rawColor.trim()}`
+        : "#e7e2dd";
+
+    return `<TR><TD ALIGN="LEFT" PORT="${this.port}" BGCOLOR="${bgColor}">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">${name}    </TD>
