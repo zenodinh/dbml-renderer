@@ -6,21 +6,21 @@ digraph dbml {
 
       "states" [id="states";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
     <TR><TD PORT="f0" BGCOLOR="#29235c"><FONT COLOR="#ffffff"><B>       states       </B></FONT></TD></TR>
-    <TR><TD PORT="f0" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    OPEN    </I></FONT></TD></TR>
-<TR><TD PORT="f1" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    CLOSED    </I></FONT></TD></TR>
-<TR><TD PORT="f2" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    VOID    </I></FONT></TD></TR>
+    <TR><TD PORT="f0" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    OPEN    </I></FONT></TD></TR>
+<TR><TD PORT="f1" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    CLOSED    </I></FONT></TD></TR>
+<TR><TD PORT="f2" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    VOID    </I></FONT></TD></TR>
     </TABLE>>];
 "action_types" [id="action_types";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
     <TR><TD PORT="f0" BGCOLOR="#29235c"><FONT COLOR="#ffffff"><B>       action_types       </B></FONT></TD></TR>
-    <TR><TD PORT="f0" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    BLIND    </I></FONT></TD></TR>
-<TR><TD PORT="f1" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    FOLD    </I></FONT></TD></TR>
-<TR><TD PORT="f2" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    CHECK    </I></FONT></TD></TR>
-<TR><TD PORT="f3" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    BET    </I></FONT></TD></TR>
+    <TR><TD PORT="f0" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    BLIND    </I></FONT></TD></TR>
+<TR><TD PORT="f1" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    FOLD    </I></FONT></TD></TR>
+<TR><TD PORT="f2" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    CHECK    </I></FONT></TD></TR>
+<TR><TD PORT="f3" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    BET    </I></FONT></TD></TR>
     </TABLE>>];
       
       "groups" [id="groups";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       groups       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -28,7 +28,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -36,7 +36,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">active    </TD>
@@ -44,7 +44,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">paid_through    </TD>
@@ -52,7 +52,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -63,7 +63,7 @@ digraph dbml {
     </TABLE>>];
 "payment_types" [id="payment_types";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       payment_types       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -71,7 +71,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">group_id    </TD>
@@ -79,7 +79,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">stripe_token    </TD>
@@ -87,7 +87,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -98,7 +98,7 @@ digraph dbml {
     </TABLE>>];
 "payments" [id="payments";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       payments       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -106,7 +106,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">payment_type_id    </TD>
@@ -114,7 +114,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">amount    </TD>
@@ -122,7 +122,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -133,7 +133,7 @@ digraph dbml {
     </TABLE>>];
 "roles" [id="roles";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       roles       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -141,7 +141,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -152,7 +152,7 @@ digraph dbml {
     </TABLE>>];
 "users" [id="users";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       users       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -160,7 +160,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">role_id    </TD>
@@ -168,7 +168,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">group_id    </TD>
@@ -176,7 +176,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">email    </TD>
@@ -184,7 +184,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">display_name    </TD>
@@ -192,7 +192,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">password    </TD>
@@ -200,7 +200,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">active    </TD>
@@ -208,7 +208,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -219,7 +219,7 @@ digraph dbml {
     </TABLE>>];
 "transactions" [id="transactions";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       transactions       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -227,7 +227,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
@@ -235,7 +235,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">amount    </TD>
@@ -243,7 +243,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -254,7 +254,7 @@ digraph dbml {
     </TABLE>>];
 "tables" [id="tables";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       tables       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -262,7 +262,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">group_id    </TD>
@@ -270,7 +270,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -278,7 +278,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">seats    </TD>
@@ -286,7 +286,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -297,7 +297,7 @@ digraph dbml {
     </TABLE>>];
 "players" [id="players";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       players       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -305,7 +305,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
@@ -313,7 +313,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">table_id    </TD>
@@ -321,7 +321,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">stack    </TD>
@@ -329,7 +329,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">sitting_out    </TD>
@@ -337,7 +337,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">seat    </TD>
@@ -345,7 +345,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -356,7 +356,7 @@ digraph dbml {
     </TABLE>>];
 "players_active" [id="players_active";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       players_active       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -364,7 +364,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
@@ -372,7 +372,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">player_id    </TD>
@@ -383,7 +383,7 @@ digraph dbml {
     </TABLE>>];
 "hands" [id="hands";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       hands       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -391,7 +391,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">table_id    </TD>
@@ -399,7 +399,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">dealer_id    </TD>
@@ -407,7 +407,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">next_id    </TD>
@@ -415,7 +415,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">rounds    </TD>
@@ -423,7 +423,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">state    </TD>
@@ -431,7 +431,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -442,7 +442,7 @@ digraph dbml {
     </TABLE>>];
 "hands_active" [id="hands_active";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       hands_active       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -450,7 +450,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">table_id    </TD>
@@ -458,7 +458,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">hand_id    </TD>
@@ -469,7 +469,7 @@ digraph dbml {
     </TABLE>>];
 "pots" [id="pots";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       pots       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -477,7 +477,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">hand_id    </TD>
@@ -485,7 +485,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">amount    </TD>
@@ -493,7 +493,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -504,7 +504,7 @@ digraph dbml {
     </TABLE>>];
 "betting_rounds" [id="betting_rounds";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       betting_rounds       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -512,7 +512,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">hand_id    </TD>
@@ -520,7 +520,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">round_num    </TD>
@@ -528,7 +528,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -536,7 +536,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">bet    </TD>
@@ -544,7 +544,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">bettor    </TD>
@@ -552,7 +552,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">state    </TD>
@@ -560,7 +560,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -571,7 +571,7 @@ digraph dbml {
     </TABLE>>];
 "betting_rounds_active" [id="betting_rounds_active";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       betting_rounds_active       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -579,7 +579,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">betting_round_id    </TD>
@@ -587,7 +587,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">hand_id    </TD>
@@ -598,7 +598,7 @@ digraph dbml {
     </TABLE>>];
 "bets" [id="bets";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       bets       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -606,7 +606,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">player_id    </TD>
@@ -614,7 +614,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">betting_round_id    </TD>
@@ -622,7 +622,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">amount    </TD>
@@ -630,7 +630,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -641,7 +641,7 @@ digraph dbml {
     </TABLE>>];
 "holdings" [id="holdings";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       holdings       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -649,7 +649,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">player_id    </TD>
@@ -657,7 +657,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">hand_id    </TD>
@@ -665,7 +665,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">is_board    </TD>
@@ -673,7 +673,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">active    </TD>
@@ -681,7 +681,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>
@@ -692,7 +692,7 @@ digraph dbml {
     </TABLE>>];
 "cards" [id="cards";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       cards       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -700,7 +700,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">code    </TD>
@@ -711,7 +711,7 @@ digraph dbml {
     </TABLE>>];
 "holdings_to_cards" [id="holdings_to_cards";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       holdings_to_cards       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>holdings_id</B>    </TD>
@@ -719,7 +719,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>cards_id</B>    </TD>
@@ -727,7 +727,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">exposed    </TD>
@@ -738,7 +738,7 @@ digraph dbml {
     </TABLE>>];
 "actions" [id="actions";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       actions       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -746,7 +746,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">holding_id    </TD>
@@ -754,7 +754,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">type    </TD>
@@ -762,7 +762,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_utc    </TD>

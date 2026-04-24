@@ -122,8 +122,8 @@ class ColumnRenderer implements RowRenderer {
         ? `<FONT COLOR="${rawColor.trim()}">${name}</FONT>`
         : name;
 
-    // All column cells use default background — only text color changes for highlighting
-    const bgColor = "#e7e2dd";
+    // BGCOLOR stays white for all column cells — matches dbdiagram.io clean style
+    const bgColor = "#ffffff";
 
     return `<TR><TD ALIGN="LEFT" PORT="${this.port}" BGCOLOR="${bgColor}">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
@@ -150,7 +150,7 @@ class CompositeKeyRowRenderer implements RowRenderer {
   toDot(): string {
     return `<TR><TD PORT="${
       this.port
-    }" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    ${this.columns.join(
+    }" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    ${this.columns.join(
       ", ",
     )}    </I></FONT></TD></TR>`;
   }
@@ -338,7 +338,7 @@ class EnumRenderer {
   }
 
   private valueDot(name: string, i: number): string {
-    return `<TR><TD PORT="f${i}" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    ${name}    </I></FONT></TD></TR>`;
+    return `<TR><TD PORT="f${i}" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    ${name}    </I></FONT></TD></TR>`;
   }
 }
 

@@ -15,17 +15,17 @@
 <polygon fill="#1d71b8" stroke="transparent" points="111.35,-232.53 111.35,-292.53 635.35,-292.53 635.35,-232.53 111.35,-232.53"/>
 <polygon fill="none" stroke="#29235c" points="111.35,-232.53 111.35,-292.53 635.35,-292.53 635.35,-232.53 111.35,-232.53"/>
 <text text-anchor="start" x="246.2" y="-253.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;my_table &#160;&#160;&#160;&#160;&#160;&#160;</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="111.35,-172.53 111.35,-232.53 635.35,-232.53 635.35,-172.53 111.35,-172.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="111.35,-172.53 111.35,-232.53 635.35,-232.53 635.35,-172.53 111.35,-172.53"/>
 <polygon fill="none" stroke="#29235c" points="111.35,-172.53 111.35,-232.53 635.35,-232.53 635.35,-172.53 111.35,-172.53"/>
 <text text-anchor="start" x="122.35" y="-192.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">delete_timestamp &#160;&#160;&#160;</text>
 <text text-anchor="start" x="476.79" y="-193.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">timestamp</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="111.35,-112.53 111.35,-172.53 635.35,-172.53 635.35,-112.53 111.35,-112.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="111.35,-112.53 111.35,-172.53 635.35,-172.53 635.35,-112.53 111.35,-112.53"/>
 <polygon fill="none" stroke="#29235c" points="111.35,-112.53 111.35,-172.53 635.35,-172.53 635.35,-112.53 111.35,-112.53"/>
 <text text-anchor="start" x="122.35" y="-132.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">buyer_code_id &#160;&#160;&#160;</text>
 <text text-anchor="start" x="492.8" y="-133.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">bigint</text>
 <text text-anchor="start" x="569.26" y="-133.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> </text>
 <text text-anchor="start" x="578.15" y="-133.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">NN</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="111.35,-52.53 111.35,-112.53 635.35,-112.53 635.35,-52.53 111.35,-52.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="111.35,-52.53 111.35,-112.53 635.35,-112.53 635.35,-52.53 111.35,-52.53"/>
 <polygon fill="none" stroke="#29235c" points="111.35,-52.53 111.35,-112.53 635.35,-112.53 635.35,-52.53 111.35,-52.53"/>
 <text text-anchor="start" x="121.98" y="-72.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">buyer_code &#160;&#160;&#160;</text>
 <text text-anchor="start" x="324.12" y="-73.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">character varying</text>

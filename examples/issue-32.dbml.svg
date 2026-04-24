@@ -15,11 +15,11 @@
 <polygon fill="#1d71b8" stroke="transparent" points="66.5,-160.11 66.5,-220.11 371.5,-220.11 371.5,-160.11 66.5,-160.11"/>
 <polygon fill="none" stroke="#29235c" points="66.5,-160.11 66.5,-220.11 371.5,-220.11 371.5,-160.11 66.5,-160.11"/>
 <text text-anchor="start" x="117.63" y="-181.31" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;users &#160;&#160;&#160;&#160;&#160;&#160;</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="66.5,-100.11 66.5,-160.11 371.5,-160.11 371.5,-100.11 66.5,-100.11"/>
+<polygon fill="#ffffff" stroke="transparent" points="66.5,-100.11 66.5,-160.11 371.5,-160.11 371.5,-100.11 66.5,-100.11"/>
 <polygon fill="none" stroke="#29235c" points="66.5,-100.11 66.5,-160.11 371.5,-160.11 371.5,-100.11 66.5,-100.11"/>
 <text text-anchor="start" x="77.5" y="-120.31" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">id &#160;&#160;&#160;</text>
 <text text-anchor="start" x="163.13" y="-121.31" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">public.user_id</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="66.5,-40.11 66.5,-100.11 371.5,-100.11 371.5,-40.11 66.5,-40.11"/>
+<polygon fill="#ffffff" stroke="transparent" points="66.5,-40.11 66.5,-100.11 371.5,-100.11 371.5,-40.11 66.5,-40.11"/>
 <polygon fill="none" stroke="#29235c" points="66.5,-40.11 66.5,-100.11 371.5,-100.11 371.5,-40.11 66.5,-40.11"/>
 <text text-anchor="start" x="77.09" y="-60.31" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">username &#160;&#160;&#160;</text>
 <text text-anchor="start" x="254.16" y="-61.31" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">varchar</text>

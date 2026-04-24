@@ -15,16 +15,16 @@
 <polygon fill="#1d71b8" stroke="transparent" points="56.26,-232.53 56.26,-292.53 314.26,-292.53 314.26,-232.53 56.26,-232.53"/>
 <polygon fill="none" stroke="#29235c" points="56.26,-232.53 56.26,-292.53 314.26,-292.53 314.26,-232.53 56.26,-232.53"/>
 <text text-anchor="start" x="66.99" y="-253.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;nazione &#160;&#160;&#160;&#160;&#160;&#160;</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="56.26,-172.53 56.26,-232.53 314.26,-232.53 314.26,-172.53 56.26,-172.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="56.26,-172.53 56.26,-232.53 314.26,-232.53 314.26,-172.53 56.26,-172.53"/>
 <polygon fill="none" stroke="#29235c" points="56.26,-172.53 56.26,-232.53 314.26,-232.53 314.26,-172.53 56.26,-172.53"/>
 <text text-anchor="start" x="67.26" y="-193.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">id</text>
 <text text-anchor="start" x="92.15" y="-193.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> &#160;&#160;&#160;</text>
 <text text-anchor="start" x="269.48" y="-193.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">int</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="56.26,-112.53 56.26,-172.53 314.26,-172.53 314.26,-112.53 56.26,-112.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="56.26,-112.53 56.26,-172.53 314.26,-172.53 314.26,-112.53 56.26,-112.53"/>
 <polygon fill="none" stroke="#29235c" points="56.26,-112.53 56.26,-172.53 314.26,-172.53 314.26,-112.53 56.26,-112.53"/>
 <text text-anchor="start" x="67.26" y="-132.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">nome &#160;&#160;&#160;</text>
 <text text-anchor="start" x="196.59" y="-133.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">varchar</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="56.26,-52.53 56.26,-112.53 314.26,-112.53 314.26,-52.53 56.26,-52.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="56.26,-52.53 56.26,-112.53 314.26,-112.53 314.26,-52.53 56.26,-52.53"/>
 <polygon fill="none" stroke="#29235c" points="56.26,-52.53 56.26,-112.53 314.26,-112.53 314.26,-52.53 56.26,-52.53"/>
 <text text-anchor="start" x="67.26" y="-72.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">continente &#160;&#160;&#160;</text>
 <text text-anchor="start" x="269.48" y="-73.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">int</text>

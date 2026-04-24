@@ -8,7 +8,7 @@ digraph dbml {
       
       "listing_years" [id="listing_years";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       listing_years       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -16,7 +16,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">year    </TD>
@@ -27,7 +27,7 @@ digraph dbml {
     </TABLE>>];
 "makes" [id="makes";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       makes       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -35,7 +35,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -46,7 +46,7 @@ digraph dbml {
     </TABLE>>];
 "models" [id="models";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       models       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -54,7 +54,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">make_id    </TD>
@@ -62,7 +62,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -73,7 +73,7 @@ digraph dbml {
     </TABLE>>];
 "trims" [id="trims";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       trims       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -81,7 +81,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">model_id    </TD>
@@ -89,7 +89,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -97,7 +97,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">description    </TD>
@@ -108,7 +108,7 @@ digraph dbml {
     </TABLE>>];
 "manufacturing_years" [id="manufacturing_years";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       manufacturing_years       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -116,7 +116,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">year    </TD>
@@ -127,7 +127,7 @@ digraph dbml {
     </TABLE>>];
 "colors" [id="colors";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       colors       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -135,7 +135,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -143,7 +143,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">color_type    </TD>
@@ -154,7 +154,7 @@ digraph dbml {
     </TABLE>>];
 "body_types" [id="body_types";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       body_types       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -162,7 +162,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -173,7 +173,7 @@ digraph dbml {
     </TABLE>>];
 "doors" [id="doors";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       doors       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -181,7 +181,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">number_of_doors    </TD>
@@ -192,7 +192,7 @@ digraph dbml {
     </TABLE>>];
 "seats" [id="seats";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       seats       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -200,7 +200,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">number_of_seats    </TD>
@@ -211,7 +211,7 @@ digraph dbml {
     </TABLE>>];
 "engine_types" [id="engine_types";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       engine_types       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -219,7 +219,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -230,7 +230,7 @@ digraph dbml {
     </TABLE>>];
 "engines" [id="engines";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       engines       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -238,7 +238,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">engine_type_id    </TD>
@@ -246,7 +246,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">cylinders    </TD>
@@ -254,7 +254,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">engine_size_l    </TD>
@@ -262,7 +262,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">horsepower    </TD>
@@ -273,7 +273,7 @@ digraph dbml {
     </TABLE>>];
 "transmissions" [id="transmissions";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       transmissions       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -281,7 +281,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">type    </TD>
@@ -292,7 +292,7 @@ digraph dbml {
     </TABLE>>];
 "drive_trains" [id="drive_trains";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       drive_trains       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -300,7 +300,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">type    </TD>
@@ -311,7 +311,7 @@ digraph dbml {
     </TABLE>>];
 "fuel_types" [id="fuel_types";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       fuel_types       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -319,7 +319,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -330,7 +330,7 @@ digraph dbml {
     </TABLE>>];
 "title_statuses" [id="title_statuses";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       title_statuses       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -338,7 +338,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">status    </TD>
@@ -349,7 +349,7 @@ digraph dbml {
     </TABLE>>];
 "regions" [id="regions";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       regions       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -357,7 +357,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -368,7 +368,7 @@ digraph dbml {
     </TABLE>>];
 "sources" [id="sources";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       sources       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -376,7 +376,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -384,7 +384,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">source_url    </TD>
@@ -392,7 +392,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">source_json    </TD>
@@ -400,7 +400,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">source_json_url    </TD>
@@ -411,7 +411,7 @@ digraph dbml {
     </TABLE>>];
 "vehicles" [id="vehicles";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       vehicles       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -419,7 +419,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">listing_year_id    </TD>
@@ -427,7 +427,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">make_id    </TD>
@@ -435,7 +435,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">model_id    </TD>
@@ -443,7 +443,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">trim_id    </TD>
@@ -451,7 +451,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">manufacture_year_id    </TD>
@@ -459,7 +459,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">condition_type    </TD>
@@ -467,7 +467,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f8" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">base_msrp    </TD>
@@ -475,7 +475,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f9" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f9" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">price    </TD>
@@ -483,7 +483,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f10" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f10" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">mileage    </TD>
@@ -491,7 +491,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f11" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f11" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">exterior_color_id    </TD>
@@ -499,7 +499,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f12" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f12" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">interior_color_id    </TD>
@@ -507,7 +507,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f13" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f13" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">body_type_id    </TD>
@@ -515,7 +515,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f14" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f14" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">door_id    </TD>
@@ -523,7 +523,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f15" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f15" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">seat_id    </TD>
@@ -531,7 +531,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f16" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f16" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">engine_id    </TD>
@@ -539,7 +539,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f17" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f17" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">transmission_id    </TD>
@@ -547,7 +547,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f18" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f18" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">drive_train_id    </TD>
@@ -555,7 +555,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f19" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f19" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">fuel_type_id    </TD>
@@ -563,7 +563,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f20" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f20" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vin    </TD>
@@ -571,7 +571,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f21" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f21" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">torque_ft_lbs    </TD>
@@ -579,7 +579,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f22" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f22" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">torque_rpm    </TD>
@@ -587,7 +587,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f23" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f23" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">epa_combined_mpg    </TD>
@@ -595,7 +595,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f24" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f24" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">epa_city_mpg    </TD>
@@ -603,7 +603,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f25" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f25" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">epa_highway_mpg    </TD>
@@ -611,7 +611,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f26" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f26" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">epa_electric_range_mi    </TD>
@@ -619,7 +619,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f27" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f27" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">epa_time_to_charge_240v_hr    </TD>
@@ -627,7 +627,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f28" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f28" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">battery_capacity_kwh    </TD>
@@ -635,7 +635,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f29" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f29" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">state    </TD>
@@ -643,7 +643,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f30" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f30" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">region_id    </TD>
@@ -651,7 +651,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f31" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f31" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">region_url    </TD>
@@ -659,7 +659,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f32" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f32" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">accidents_reported    </TD>
@@ -667,7 +667,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f33" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f33" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">owner_count    </TD>
@@ -675,7 +675,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f34" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f34" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">rental_use    </TD>
@@ -683,7 +683,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f35" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f35" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">days_on_market    </TD>
@@ -691,7 +691,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f36" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f36" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">date_captured    </TD>
@@ -699,7 +699,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f37" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f37" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">date_added    </TD>
@@ -707,7 +707,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f38" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f38" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">date_modified    </TD>
@@ -718,7 +718,7 @@ digraph dbml {
     </TABLE>>];
 "live_scraped_data" [id="live_scraped_data";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       live_scraped_data       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -726,7 +726,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -734,7 +734,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">price    </TD>
@@ -742,7 +742,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">mileage    </TD>
@@ -750,7 +750,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">msrp    </TD>
@@ -758,7 +758,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">date_captured    </TD>
@@ -766,7 +766,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">source_id    </TD>
@@ -777,7 +777,7 @@ digraph dbml {
     </TABLE>>];
 "historical_data" [id="historical_data";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       historical_data       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -785,7 +785,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -793,7 +793,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">price    </TD>
@@ -801,7 +801,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">mileage    </TD>
@@ -809,7 +809,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">msrp    </TD>
@@ -817,7 +817,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">date_captured    </TD>
@@ -825,7 +825,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f7" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">source_id    </TD>
@@ -836,7 +836,7 @@ digraph dbml {
     </TABLE>>];
 "images" [id="images";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       images       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -844,7 +844,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -852,7 +852,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">image_url    </TD>
@@ -863,7 +863,7 @@ digraph dbml {
     </TABLE>>];
 "listing_raw_data" [id="listing_raw_data";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       listing_raw_data       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -871,7 +871,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -879,7 +879,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">raw_json    </TD>
@@ -890,7 +890,7 @@ digraph dbml {
     </TABLE>>];
 "tags" [id="tags";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       tags       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -898,7 +898,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -909,7 +909,7 @@ digraph dbml {
     </TABLE>>];
 "vehicle_tags" [id="vehicle_tags";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       vehicle_tags       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -917,7 +917,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">tag_id    </TD>
@@ -928,7 +928,7 @@ digraph dbml {
     </TABLE>>];
 "roles" [id="roles";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       roles       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -936,7 +936,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -947,7 +947,7 @@ digraph dbml {
     </TABLE>>];
 "users" [id="users";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       users       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -955,7 +955,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">username    </TD>
@@ -963,7 +963,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">password_hash    </TD>
@@ -971,7 +971,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">role_id    </TD>
@@ -979,7 +979,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_at    </TD>
@@ -990,7 +990,7 @@ digraph dbml {
     </TABLE>>];
 "audit_trails" [id="audit_trails";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       audit_trails       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -998,7 +998,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">vehicle_id    </TD>
@@ -1006,7 +1006,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
@@ -1014,7 +1014,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">action    </TD>
@@ -1022,7 +1022,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">action_timestamp    </TD>
@@ -1030,7 +1030,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">ip_address    </TD>

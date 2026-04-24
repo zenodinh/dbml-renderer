@@ -6,9 +6,9 @@ digraph dbml {
 
       "products_status" [id="products_status";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
     <TR><TD PORT="f0" BGCOLOR="#29235c"><FONT COLOR="#ffffff"><B>       products_status       </B></FONT></TD></TR>
-    <TR><TD PORT="f0" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    out_of_stock    </I></FONT></TD></TR>
-<TR><TD PORT="f1" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    in_stock    </I></FONT></TD></TR>
-<TR><TD PORT="f2" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    running_low    </I></FONT></TD></TR>
+    <TR><TD PORT="f0" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    out_of_stock    </I></FONT></TD></TR>
+<TR><TD PORT="f1" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    in_stock    </I></FONT></TD></TR>
+<TR><TD PORT="f2" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    running_low    </I></FONT></TD></TR>
     </TABLE>>];
       subgraph cluster_merchants {
       label="merchants"
@@ -17,7 +17,7 @@ digraph dbml {
 
       "merchants" [id="merchants";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       merchants       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -25,7 +25,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>country_code</B>    </TD>
@@ -33,7 +33,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">merchant_name    </TD>
@@ -41,7 +41,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created at    </TD>
@@ -49,7 +49,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">admin_id    </TD>
@@ -57,11 +57,11 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD PORT="f6" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    id, country_code    </I></FONT></TD></TR>
+<TR><TD PORT="f6" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    id, country_code    </I></FONT></TD></TR>
     </TABLE>>];
 "merchant_periods" [id="merchant_periods";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       merchant_periods       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -69,7 +69,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">merchant_id    </TD>
@@ -77,7 +77,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">country_code    </TD>
@@ -85,7 +85,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">start_date    </TD>
@@ -93,7 +93,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">end_date    </TD>
@@ -101,12 +101,12 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD PORT="f6" BGCOLOR="#e7e2dd"><FONT COLOR="#1d71b8"><I>    merchant_id, country_code    </I></FONT></TD></TR>
+<TR><TD PORT="f6" BGCOLOR="#ffffff"><FONT COLOR="#1d71b8"><I>    merchant_id, country_code    </I></FONT></TD></TR>
     </TABLE>>];
     }
       "users" [id="users";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       users       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -114,7 +114,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">full_name    </TD>
@@ -122,7 +122,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_at    </TD>
@@ -130,7 +130,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">country_code    </TD>
@@ -141,7 +141,7 @@ digraph dbml {
     </TABLE>>];
 "countries" [id="countries";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       countries       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>code</B>    </TD>
@@ -149,7 +149,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -157,7 +157,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">continent_name    </TD>
@@ -168,7 +168,7 @@ digraph dbml {
     </TABLE>>];
 "order_items" [id="order_items";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       order_items       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">order_id    </TD>
@@ -176,7 +176,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">product_id    </TD>
@@ -184,7 +184,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">quantity    </TD>
@@ -195,7 +195,7 @@ digraph dbml {
     </TABLE>>];
 "orders" [id="orders";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       orders       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -203,7 +203,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">user_id    </TD>
@@ -211,7 +211,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">status    </TD>
@@ -219,7 +219,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_at    </TD>
@@ -230,7 +230,7 @@ digraph dbml {
     </TABLE>>];
 "products" [id="products";label=<<TABLE BORDER="2" COLOR="#29235c" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10">
       <TR><TD PORT="f0" BGCOLOR="#1d71b8"><FONT COLOR="#ffffff"><B>       products       </B></FONT></TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f1" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT"><B>id</B>    </TD>
@@ -238,7 +238,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f2" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">name    </TD>
@@ -246,7 +246,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f3" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">merchant_id    </TD>
@@ -254,7 +254,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f4" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">price    </TD>
@@ -262,7 +262,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f5" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">status    </TD>
@@ -270,7 +270,7 @@ digraph dbml {
         </TR>
       </TABLE>
     </TD></TR>
-<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#e7e2dd">
+<TR><TD ALIGN="LEFT" PORT="f6" BGCOLOR="#ffffff">
       <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
         <TR>
           <TD ALIGN="LEFT">created_at    </TD>

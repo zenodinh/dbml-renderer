@@ -15,20 +15,20 @@
 <polygon fill="#1d71b8" stroke="transparent" points="119.22,-232.53 119.22,-292.53 681.22,-292.53 681.22,-232.53 119.22,-232.53"/>
 <polygon fill="none" stroke="#29235c" points="119.22,-232.53 119.22,-292.53 681.22,-292.53 681.22,-232.53 119.22,-232.53"/>
 <text text-anchor="start" x="278.42" y="-253.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;galleries &#160;&#160;&#160;&#160;&#160;&#160;</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="119.22,-172.53 119.22,-232.53 681.22,-232.53 681.22,-172.53 119.22,-172.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="119.22,-172.53 119.22,-232.53 681.22,-232.53 681.22,-172.53 119.22,-172.53"/>
 <polygon fill="none" stroke="#29235c" points="119.22,-172.53 119.22,-232.53 681.22,-232.53 681.22,-172.53 119.22,-172.53"/>
 <text text-anchor="start" x="129.99" y="-193.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">gallery_id</text>
 <text text-anchor="start" x="266.89" y="-193.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> &#160;&#160;&#160;</text>
 <text text-anchor="start" x="302.21" y="-193.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">int(3) unsigned zerofill</text>
 <text text-anchor="start" x="615.14" y="-193.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> </text>
 <text text-anchor="start" x="624.03" y="-193.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">NN</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="119.22,-112.53 119.22,-172.53 681.22,-172.53 681.22,-112.53 119.22,-112.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="119.22,-112.53 119.22,-172.53 681.22,-172.53 681.22,-112.53 119.22,-112.53"/>
 <polygon fill="none" stroke="#29235c" points="119.22,-112.53 119.22,-172.53 681.22,-172.53 681.22,-112.53 119.22,-112.53"/>
 <text text-anchor="start" x="130.22" y="-132.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">title &#160;&#160;&#160;</text>
 <text text-anchor="start" x="433.78" y="-133.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">varchar(255)</text>
 <text text-anchor="start" x="615.13" y="-133.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> </text>
 <text text-anchor="start" x="624.02" y="-133.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">NN</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="119.22,-52.53 119.22,-112.53 681.22,-112.53 681.22,-52.53 119.22,-52.53"/>
+<polygon fill="#ffffff" stroke="transparent" points="119.22,-52.53 119.22,-112.53 681.22,-112.53 681.22,-52.53 119.22,-52.53"/>
 <polygon fill="none" stroke="#29235c" points="119.22,-52.53 119.22,-112.53 681.22,-112.53 681.22,-52.53 119.22,-52.53"/>
 <text text-anchor="start" x="130.22" y="-72.73" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">comment &#160;&#160;&#160;</text>
 <text text-anchor="start" x="563.55" y="-73.73" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">text</text>

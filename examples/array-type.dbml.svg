@@ -15,20 +15,20 @@
 <polygon fill="#1d71b8" stroke="transparent" points="81.11,-304.96 81.11,-364.96 459.11,-364.96 459.11,-304.96 81.11,-304.96"/>
 <polygon fill="none" stroke="#29235c" points="81.11,-304.96 81.11,-364.96 459.11,-364.96 459.11,-304.96 81.11,-304.96"/>
 <text text-anchor="start" x="176.75" y="-326.16" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;user &#160;&#160;&#160;&#160;&#160;&#160;</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="81.11,-244.96 81.11,-304.96 459.11,-304.96 459.11,-244.96 81.11,-244.96"/>
+<polygon fill="#ffffff" stroke="transparent" points="81.11,-244.96 81.11,-304.96 459.11,-304.96 459.11,-244.96 81.11,-244.96"/>
 <polygon fill="none" stroke="#29235c" points="81.11,-244.96 81.11,-304.96 459.11,-304.96 459.11,-244.96 81.11,-244.96"/>
 <text text-anchor="start" x="92.11" y="-266.16" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="32.00" fill="#29235c">id</text>
 <text text-anchor="start" x="117" y="-266.16" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c"> &#160;&#160;&#160;</text>
 <text text-anchor="start" x="350.31" y="-266.16" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">integer</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="81.11,-184.96 81.11,-244.96 459.11,-244.96 459.11,-184.96 81.11,-184.96"/>
+<polygon fill="#ffffff" stroke="transparent" points="81.11,-184.96 81.11,-244.96 459.11,-244.96 459.11,-184.96 81.11,-184.96"/>
 <polygon fill="none" stroke="#29235c" points="81.11,-184.96 81.11,-244.96 459.11,-244.96 459.11,-184.96 81.11,-184.96"/>
 <text text-anchor="start" x="92.11" y="-205.16" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">tags &#160;&#160;&#160;</text>
 <text text-anchor="start" x="323.66" y="-206.16" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">varchar[]</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="81.11,-124.96 81.11,-184.96 459.11,-184.96 459.11,-124.96 81.11,-124.96"/>
+<polygon fill="#ffffff" stroke="transparent" points="81.11,-124.96 81.11,-184.96 459.11,-184.96 459.11,-124.96 81.11,-124.96"/>
 <polygon fill="none" stroke="#29235c" points="81.11,-124.96 81.11,-184.96 459.11,-184.96 459.11,-124.96 81.11,-124.96"/>
 <text text-anchor="start" x="92.11" y="-145.16" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">friend_groups &#160;&#160;&#160;</text>
 <text text-anchor="start" x="352.08" y="-146.16" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">uuid[][]</text>
-<polygon fill="#e7e2dd" stroke="transparent" points="81.11,-64.96 81.11,-124.96 459.11,-124.96 459.11,-64.96 81.11,-64.96"/>
+<polygon fill="#ffffff" stroke="transparent" points="81.11,-64.96 81.11,-124.96 459.11,-124.96 459.11,-64.96 81.11,-64.96"/>
 <polygon fill="none" stroke="#29235c" points="81.11,-64.96 81.11,-124.96 459.11,-124.96 459.11,-64.96 81.11,-64.96"/>
 <text text-anchor="start" x="91.7" y="-85.16" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">position &#160;&#160;&#160;</text>
 <text text-anchor="start" x="236.83" y="-86.16" font-family="Helvetica,sans-Serif" font-style="italic" font-size="32.00" fill="#29235c">decimal(3,5)[3]</text>

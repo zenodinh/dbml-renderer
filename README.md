@@ -8,15 +8,15 @@ This fork adds two features for SA (System Analysis) document ERDs:
 
 ### 1. Column-Level Color Highlighting
 
-Add `[color: #hex]` to any column to change the **text color** of that column name. Background stays default grey for all columns. This lets reviewers see exactly which columns changed without visual noise.
+Add `[color: #hex]` to any column to change the **text color** of that column name. Column cell background stays **white** — clean and readable. This lets reviewers see exactly which columns changed at a glance.
 
 ```dbml
 Table iex_merchant_config {
   config_id varchar(64) [pk, not null]
   merchant_id varchar(64) [not null]
-  settlement_currency varchar(3) [not null, color: #DCFCE7]  // green = modified
+  settlement_currency varchar(3) [not null, color: #DCFCE7]  // light green = modified
   new_field varchar(255) [color: #FEE2E2]                    // light red = new
-  deleted tinyint [not null, default: 0]                     // default = existing
+  deleted tinyint [not null, default: 0]                      // default text color
 }
 ```
 
@@ -27,11 +27,12 @@ Table iex_merchant_config {
 | Table header (existing) | Blue | `#1d71b8` | Default — no setting needed |
 | Table header (new) | Red | `#DC2626` | New table added in this SA |
 | Table header (modified) | Green | `#16A34A` | Existing table with column changes |
+| Column cell background | White | `#ffffff` | All column cells — clean and readable |
 | Column text (existing) | Dark grey | `#29235c` | Default — no setting needed |
 | Column text (new) | Light red | `#FEE2E2` | New column in any table |
 | Column text (modified) | Light green | `#DCFCE7` | Modified column in any table |
 
-**Rule:** Header color and column text color are complementary — new table gets red header + red text on all columns; modified table gets default header + colored text only on changed columns.
+**Visual style:** White column cells with clean borders, matching dbdiagram.io's clean visual theme.
 
 ### 2. NN Marker for NOT NULL
 
@@ -84,7 +85,7 @@ Table iex_merchant {
   gmt_modified timestamp [not null, default: `now()`]
 }
 
-// New table — red header + all columns light red
+// New table — red header + all columns have light red text
 Table iex_merchant_product [headercolor: #DC2626] {
   product_id varchar(64) [pk, not null, color: #FEE2E2]
   merchant_id varchar(64) [not null, color: #FEE2E2]
@@ -100,7 +101,7 @@ Table iex_merchant_product [headercolor: #DC2626] {
   }
 }
 
-// Modified table — default header, changed column colored green
+// Modified table — default header, changed column has green text
 Table iex_merchant_config {
   config_id varchar(64) [pk, not null]
   merchant_id varchar(64) [not null]
@@ -117,4 +118,4 @@ Ref: iex_merchant_config.merchant_id > iex_merchant.merchant_id [delete: cascade
 ## Credits
 
 - Original: [softwaretechnik-berlin/dbml-renderer](https://github.com/softwaretechnik-berlin/dbml-renderer) — MIT License
-- Fork changes: column-level color support, NN marker
+- Fork changes: column-level color (text), NN marker, white cell backgrounds
